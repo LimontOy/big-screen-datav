@@ -118,7 +118,7 @@ let option8 = {
         borderColor: '#0177ff'
       },
       emphasis: {
-        areaColor: '#071537'//鼠标指上市时的颜色
+        areaColor: '#071537'
       }
     }
   },
