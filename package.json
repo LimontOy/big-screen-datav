@@ -11,23 +11,26 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "cnpm": "^9.2.0",
     "echarts": "^4.9.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "babel-eslint": "^10.0.3",
+    "compression-webpack-plugin": "5.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
-    "compression-webpack-plugin": "5.0.2",
-    "vue-template-compiler": "^2.6.11",
-    "script-ext-html-webpack-plugin": "2.1.5"
+    "script-ext-html-webpack-plugin": "2.1.5",
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
