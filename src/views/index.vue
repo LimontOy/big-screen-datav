@@ -13,16 +13,16 @@
       <VisualLeft/>
       <VisualCenter/>
       <VisualRight/>
-      <div className="clear"></div>
+      <div class="clear"></div>
     </div>
   </div>
 </template>
 
 <script>
-import VisualLeft from "@/views/visualLeft.vue";
-import VisualCenter from "@/views/visualCenter.vue";
-import VisualRight from "@/views/visualRight.vue";
-import '../assets/js/china.js'
+import VisualLeft from "@comp/visualLeft.vue";
+import VisualCenter from "@comp/visualCenter.vue";
+import VisualRight from "@comp/visualRight.vue";
+import '@assets/js/china.js'
 
 export default {
   name: 'pagesDataV',
@@ -32,13 +32,12 @@ export default {
     VisualRight
   },
   mounted() {
-    this.addScript()
+    // this.addScript()
   },
   methods: {
     addScript() {
       let scriptSrcList = ['../assets/js/jquery.min.js', '../assets/js/bootstrap.min.js', '../assets/js/swiper.min.js']
-      let i = 0
-      for (i; i < scriptSrcList.length; i++) {
+      for (let i = 0; i < scriptSrcList.length; i++) {
         let script = document.createElement('script')
         script.type = 'text/javascript'
         script.src = scriptSrcList[i]

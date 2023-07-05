@@ -781,9 +781,9 @@ let geoCoordMap = {
 };
 
 let convertData = function (data) {
-  var res = [];
-  for (var i = 0; i < data.length; i++) {
-    var geoCoord = geoCoordMap[data[i].name];
+  let res = [];
+  for (let i = 0; i < data.length; i++) {
+    let geoCoord = geoCoordMap[data[i].name];
     if (geoCoord) {
       res.push({
         name: data[i].name,
@@ -1063,7 +1063,7 @@ let option9 = {
 //地图数据 end
 
 import echarts from "echarts"
-import Swiper from '../assets/js/swiper.min.js'
+import Swiper from '@assets/js/swiper.min.js'
 
 
 export default {
